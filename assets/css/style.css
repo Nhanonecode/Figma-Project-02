@@ -13,6 +13,15 @@ body {
 }
 
 /* ==============common=============== */
+
+.desc1 {
+  color: #9da6a5;
+}
+
+.desc {
+  color: #767e7e;
+}
+
 a {
   text-decoration: none;
 }
@@ -94,4 +103,252 @@ a {
   background: #1ebfc1;
   color: #fff;
   transition: 0.3s;
+}
+
+/* =================main================== */
+
+.hero {
+  padding: 42px 0 79px;
+}
+
+.hero .body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero .content-block {
+  width: 39.2%;
+  margin: 93px 0;
+}
+
+.hero .desc {
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.hero .desc1 {
+  margin-top: 46px;
+  width: 374px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+.hero .title {
+  margin-top: 18px;
+  color: #0d1111;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.hero .btnn {
+  display: flex;
+  align-items: center;
+}
+
+.hero .btn {
+  display: inline-block;
+  text-align: center;
+  margin-top: 52px;
+  padding: 20px 41px;
+  width: 186px;
+  height: 68px;
+  border-radius: 14px;
+  border: 1px solid #1ebfc1;
+  background: #fff;
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+  color: #1ebfc1;
+  font-size: 1.17rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.hero .btn:hover {
+  background: #1ebfc1;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.hero .play-video {
+  margin-top: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+  width: 62px;
+  height: 62px;
+  border-radius: 62px;
+  background: #fff;
+  box-shadow: 0px 22px 50px 0px rgba(0, 0, 0, 0.05);
+}
+
+.hero .play-video:hover {
+  border: 1px solid #1ebfc1;
+}
+
+/* hero right */
+
+.hero .media-block {
+  position: relative;
+}
+
+.hero .girl {
+  width: 576px;
+  height: 631px;
+  position: relative;
+  object-fit: cover;
+}
+
+.hero .media-block .courses {
+  position: absolute;
+  top: 149px;
+  left: -40px;
+  width: 157px;
+  height: 75px;
+  border-radius: 18px;
+  background: #fefefd;
+  box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  color: #0d1111;
+  font-size: 1rem;
+}
+
+.hero .media-block .book {
+  margin-left: 25px;
+  width: 36px;
+  height: 40px;
+}
+
+.hero .media-block .courses::after {
+  position: absolute;
+  top: 45px;
+  left: 29px;
+  content: "";
+  width: 28px;
+  height: 4px;
+  background: #fff;
+  border-radius: 999px;
+}
+
+.hero .media-block .schedules {
+  width: 124px;
+  height: 132px;
+  border-radius: 24px;
+  background: #ffffff;
+  box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+  position: absolute;
+  top: 453px;
+  left: -65px;
+}
+
+.hero .media-block .schedules span {
+  color: #0d1111;
+  font-size: 0.7rem;
+  font-weight: 500;
+  margin-top: 16px;
+  margin-left: 36px;
+}
+
+.hero .media-block .icon {
+  display: block;
+  margin-left: 25px;
+  background: #edf1f5;
+  border-radius: 5px;
+  width: 74px;
+  height: 6px;
+}
+
+.hero .media-block .icon.icon1 {
+  margin-top: 16px;
+}
+
+.hero .media-block .icon.icon2 {
+  margin-top: 12px;
+}
+
+.hero .media-block .icon.icon3 {
+  margin-top: 10px;
+}
+
+.hero .media-block .icon.icon4 {
+  width: 26px;
+  height: 6px;
+  margin: 16px 49px 23px;
+}
+
+.hero .media-block .avatar-block {
+  width: 207px;
+  height: 90px;
+  border-radius: 24px;
+  background: #fefefd;
+  box-shadow: 0px 12px 80px 0px rgba(0, 0, 0, 0.05);
+  background: #fefefd;
+  position: absolute;
+  right: 45px;
+  bottom: 41px;
+}
+
+.hero .media-block .avatar-body {
+  display: flex;
+  align-items: center;
+  margin: 8px 35px 17px;
+}
+
+.hero .media-block .avatar-block span {
+  color: #0d1111;
+  font-size: 0.7rem;
+  font-weight: 500;
+  display: block;
+  margin-top: 17px;
+  margin-left: 35px;
+}
+
+.hero .media-block .avatar-block .avatar {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  background: lightgray 50% / cover no-repeat;
+  margin-left: -7px;
+}
+
+.hero .avatar-block .avatar:first-child {
+  margin-left: 0;
+}
+
+.hero .avatar-block .avatar.avatar1 {
+  background: #1ebfc1;
+}
+
+.hero .avatar-block .avatar.avatar2 {
+  background: #ffc147;
+}
+
+.hero .avatar-block .avatar.avatar3 {
+  background: #ff947a;
+}
+
+.hero .avatar-block .avatar.avatar4 {
+  background: #bf83ff;
+}
+
+.hero .media-block .avatar-block .avatar.word {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1ebfc1;
+}
+
+.hero .media-block .avatar-block .avatar span {
+  color: #fff;
+  text-align: center;
+  font-size: 0.7rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
 }
