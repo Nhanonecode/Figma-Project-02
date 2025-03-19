@@ -115,7 +115,7 @@ a {
   display: flex;
   justify-content: space-between;
 }
-
+/* hero left */
 .hero .content-block {
   width: 39.2%;
   margin: 93px 0;
@@ -201,6 +201,7 @@ a {
   object-fit: cover;
 }
 
+/* courses */
 .hero .media-block .courses {
   position: absolute;
   top: 149px;
@@ -235,6 +236,7 @@ a {
   border-radius: 999px;
 }
 
+/* schedules */
 .hero .media-block .schedules {
   width: 124px;
   height: 132px;
@@ -281,6 +283,7 @@ a {
   margin: 16px 49px 23px;
 }
 
+/* avatar */
 .hero .media-block .avatar-block {
   width: 207px;
   height: 90px;
@@ -351,4 +354,73 @@ a {
   font-weight: 500;
   line-height: normal;
   margin: 0;
+  cursor: default;
+}
+
+/* =================feature================== */
+
+.features {
+  margin-top: 70px;
+}
+
+.features .body-ft {
+  padding: 60px 0;
+  max-width: 1024px;
+}
+
+.features .body-ft .desc-title {
+  color: #767e7e;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.features .body-ft .heading-lv2 a {
+  display: inline-block;
+  margin-top: 18px;
+  max-width: 577px;
+  color: #0d1111;
+  font-size: 2.89rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.features .body-ft .desc {
+  max-width: ;
+  width: 590px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-top: 18px;
+}
+
+/* features list */
+.features .feature-list {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.features .feature-list .item {
+  width: 223px;
+}
+
+.features .feature-list .item:first-child {
+  width: 168px;
+}
+
+.features .feature-list .item:last-child {
+  width: 224px;
+}
+
+.features .feature-list .item-desc a {
+  display: inline-block;
+  margin-top: 26px;
+  color: #0d1111;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.features .feature-list .item .desc1 {
+  margin-top: 16px;
+  font-size: 1.05rem;
+  font-weight: 400;
+  line-height: 1.73;
 }
