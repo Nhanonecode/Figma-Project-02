@@ -185,7 +185,10 @@ a {
 }
 
 .hero .play-video:hover {
-  border: 1px solid #1ebfc1;
+  background: #eee;
+  box-shadow: 0px 0px 0px 0px rgba(7, 159, 176, 0.5);
+  transition: 0.5s;
+  cursor: pointer;
 }
 
 /* hero right */
@@ -423,4 +426,136 @@ a {
   font-size: 1.05rem;
   font-weight: 400;
   line-height: 1.73;
+}
+
+/* =============popular========== */
+
+.popular-courses {
+  margin-top: 40px;
+}
+
+.popular-courses .body-ppl {
+  padding: 30px 0;
+}
+
+.popular-courses .body-ppl .desc-title {
+  color: #767e7e;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.popular-courses .body-ppl .heading-lv2 a {
+  margin-top: 18px;
+  color: #0d1111;
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.popular-courses .body-ppl .viewall {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popular-courses .body-ppl .desc {
+  margin-top: 19px;
+  width: 525px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.78;
+}
+
+.popular-courses .body-ppl .view-link {
+  color: #0d1111;
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-decoration: underline;
+  line-height: 1.6;
+}
+
+.popular-courses .body-ppl .view-link:hover {
+  color: #1ebfc1;
+}
+
+/* popular list */
+
+.popular-courses .body-ppl .item {
+  position: relative;
+}
+.popular-courses .body-ppl .popular-list {
+  display: flex;
+  margin-top: 79px;
+  gap: 47px;
+}
+
+.body-ppl .popular-list .item .imgcpt {
+  width: 359px;
+  height: 393px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.body-ppl .popular-list .item .imgcpt:hover {
+  opacity: 0.35;
+  background: #d0efed;
+}
+
+.body-ppl .item .info {
+  position: absolute;
+  top: 322px;
+  left: 17px;
+  width: 325px;
+  height: 195px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+}
+
+.body-ppl .item .heading-lv3 {
+  color: #0d1111;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 18px 0 0 25px;
+}
+
+.body-ppl .item .info .desc {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-left: 25px;
+  margin-top: 16px;
+}
+
+.body-ppl .item .info .desc span {
+  color: #0d1111;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.body-ppl .item .info .desc1 {
+  margin-left: 25px;
+  margin-top: 6px;
+  font-size: 0.95rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.body-ppl .item .info .btinfo {
+  margin-top: 18px;
+  margin-left: 15px;
+  color: #9da6a5;
+  font-size: 0.97rem;
+  font-weight: 400;
+}
+
+.body-ppl .item .info .btinfo span::before {
+  display: inline-block;
+  margin: 3px 10px;
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #1ebfc1;
 }
