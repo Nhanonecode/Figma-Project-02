@@ -482,6 +482,8 @@ a {
 /* popular list */
 
 .popular-courses .body-ppl .item {
+  width: 359px;
+  height: 517px;
   position: relative;
 }
 .popular-courses .body-ppl .popular-list {
@@ -558,4 +560,197 @@ a {
   height: 6px;
   border-radius: 50%;
   background: #1ebfc1;
+}
+
+/* ==============countdown========== */
+
+.countdow {
+  margin-top: 200px;
+}
+
+.countdow .body {
+  padding: 35px 0;
+  background: #ffffff;
+}
+
+.countdow .body .countdown-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.countdow .countdown-list .item {
+  width: 161px;
+}
+
+.countdow .countdown-list .item:first-child {
+  width: 148px;
+}
+
+.countdow .countdown-list .item:last-child {
+  width: 153px;
+}
+
+.countdow .item .count strong {
+  display: inline-block;
+  color: #0d1111;
+  text-align: center;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.countdow .item .desc {
+  margin-top: 11px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+/* ===============feedback=============== */
+
+.feedback {
+  margin-top: 199px;
+}
+
+.feedback .body {
+  padding: 30px 0;
+  /* background: cyan; */
+  display: flex;
+  width: 1170px;
+  justify-content: space-between;
+  position: relative;
+}
+
+.feedback .body .text-left {
+  width: 36%;
+}
+
+.feedback .body .avatar {
+  width: 58%;
+  height: 100%;
+}
+
+.feedback .text-left .icon {
+  width: 36px;
+  height: 29px;
+  margin-top: 37px;
+}
+
+.feedback .text-left .comment {
+  margin-top: 27px;
+  color: #5d6564;
+  font-size: 2.14rem;
+  font-weight: 400;
+  line-height: 1.5;
+  max-width: 419px;
+}
+
+.feedback .text-left .desc {
+  color: #767e7e;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 33px;
+  display: flex;
+  align-items: center;
+}
+
+.feedback .text-left strong {
+  color: #070707;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.feedback .text-left .desc::before {
+  margin-right: 6px;
+  content: "";
+  background: #070707;
+  width: 8px;
+  height: 2px;
+  display: inline-block;
+}
+
+.feedback .text-left .btn-action {
+  margin-left: -30px;
+  display: flex;
+  margin-top: 52px;
+}
+
+.feedback .text-left a {
+  margin-left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #b3ece9;
+  box-shadow: 0px 22px 50px 50px rgba(0, 0, 0, 0.05);
+}
+.feedback .text-left a:hover {
+  background: #13e5c9;
+  box-shadow: 0px 0px 0px 0px rgba(7, 159, 176, 0.5);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.feedback .body .avar {
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.feedback .body .avarmini1 {
+  width: 235px;
+  height: 235px;
+  border-radius: 50%;
+  position: absolute;
+  top: 88px;
+  right: 171px;
+}
+
+.feedback .body .avarmini2 {
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  position: absolute;
+  right: 443px;
+}
+
+.feedback .body .avarmini3 {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  position: absolute;
+  top: 19px;
+  right: 0;
+}
+
+.feedback .body .avarmini4 {
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  position: absolute;
+  right: 32px;
+  bottom: 29px;
+}
+
+.feedback .body .avarmini5 {
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 389px;
+}
+
+.feedback .body .avarmini6 {
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  position: absolute;
+  right: 601px;
+  bottom: 145px;
 }
